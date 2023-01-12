@@ -5,8 +5,8 @@
 <img src="propic.jpg" width=30% height=20%>
 
 #### Programming Projects and Experience
-[Project - Implied Volatility Tracking Web Scraper](https://NickZehnle.github.io/Programs/stockscraper.html)
+[Project - Implied Volatility Tracking Web Scraper](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
 
-[Practice - Monte Carlo Simulation](https://NickZehnle.github.io/Programs/montecarlo.html)
+[Practice - Monte Carlo Simulation](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
 
-[Practice - Geometric Brownian Motion Simulation](https://NickZehnle.github.io/Programs/gbm.html)
+[Practice - Geometric Brownian Motion Simulation](https://NickZehnle.github.io/Programming-Experience/gbm.html)
