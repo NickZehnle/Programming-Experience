@@ -1,10 +1,9 @@
-# Welcome.
-
-#### I'm Nick Zehnle, a Mathematics and Economics major at the College of William and Mary graduating in May of 2024.
+## Nick Zehnle
+### Mathematics & Economics major at the College of William and Mary. Graduating in May of 2024.
 
 <img src="propic.jpg" width=30% height=20%>
 
-#### Programming Projects and Experience
+### Projects and Experience
 [Project - Implied Volatility Tracking Web Scraper](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
 
 [Practice - Monte Carlo Simulation](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
