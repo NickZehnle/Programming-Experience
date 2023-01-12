@@ -8,6 +8,7 @@ according to a specified time interval until the market closes. Nonetheless, it 
 after the trading day. All of the data is continuously placed into a dataframe that uploads to an Excel file. 
 
 #### Code
+https://github.com/NickZehnle/Programs/blob/7538619dd8c37ebac19932ceb161add8d12b4d87/stockscraper.py#L1-L192
 #### How it functions
 #### Data Examples
 #### Improvements to be made
