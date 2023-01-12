@@ -1,5 +1,3 @@
-# Implied Volatility Tracking Web Scraper
-
 #### Brief Summary
 I designed a web scraper that gathers the market price of the underlying asset, the market price of the call option, and the risk-free rate in real time. 
 The user inputs the stock, the strike price, and the time to maturity that is of interest to them. Then, the implementation of the Newton-Raphson method 
