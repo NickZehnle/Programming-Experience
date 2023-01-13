@@ -4,7 +4,7 @@
 <img src="propic.jpg" width=30% height=20%>
 
 ### Projects and Experience
-[Project - Implied Volatility Tracking Web Scraper](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
+[Project - Implied Volatility Tracking Web Scraper](https://NickZehnle.github.io/Programming-Experience/stockscraper/)
 
 [Practice - Monte Carlo Simulation](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
 
