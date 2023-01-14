@@ -5,7 +5,7 @@ I designed a web scraper that gathers the market price of the underlying asset, 
 
 #### Code
 
-https://github.com/NickZehnle/Programming-Experience/blob/8a0b8a7fa28fcb51406a2484af39e1b80c6f1cfb/stockscraper.py#L1-L192
+"https://github.com/NickZehnle/Programming-Experience/blob/8a0b8a7fa28fcb51406a2484af39e1b80c6f1cfb/stockscraper.py#L1-L192"
 
 #### Functionality
 Below is an image of the terminal during runtime. It first collects the user input for stock, strike price, and days until expiration. Then, it scrapes the market price of the underlying asset. In order to find the market price of the option it begins at the top of the straddle and iterates through the strike prices until it finds the row containing the strike price input by the user. The program subsequently moves over the the Last Price column and scrapes the option price. Lastly, it scrapes the risk-free rate, calculates, and appends the findings to the dataframe.
