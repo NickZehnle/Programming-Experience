@@ -88,3 +88,5 @@ I followed a tutorial of how to implement a monte carlo simulation that predicts
 #### Output
 
 ![](mc-ex.png)
+
+![](VaRterm.png)
