@@ -10,8 +10,16 @@ https://github.com/NickZehnle/Programming-Experience/blob/8a0b8a7fa28fcb51406a24
 #### Functionality
 Below is an image of the terminal during runtime. It first collects the user input for stock, strike price, and days until expiration. Then, it scrapes the market price of the underlying asset. In order to find the market price of the option it begins at the top of the straddle and iterates through the strike prices until it finds the row containing the strike price input by the user. The program subsequently moves over the the Last Price column and scrapes the option price. Lastly, it scrapes the risk-free rate, calculates, and appends the findings to the dataframe.
 
+![](terminal.png)
+
 #### Data Examples
-Note the path label in the code of the program above. I have it so the Excel file is marked by the date followed by the name of the stock.
+Note the path label in the code of the program above. I have it so the Excel file is marked by the date followed by the name of the stock for orginizational purposes. I provide data from two stocks on different days with different runtime intervals. 
+
+![](AMZN-01-09.png)
+Data from AMZN on January 9, 2023 from 2:04 p.m. to 2:16 p.m. at a runtime interval of 1 minute.
+
+![](AAPL-01-12.png)
+Data from AAPL on January 12, 2023 from 11:51 a.m. to 2:51 p.m. at a runtime interval of 15 minutes.
 
 #### Upcoming Improvements
 As aforementioned, the Black-Scholes formula and its derivatives with respect to implied volatility used in the program do not take into account dividend payoffs. Ergo, an easy update would be to scrape the dividend payoffs of the stock and substitute the formulas that include a measure for dividends. 
