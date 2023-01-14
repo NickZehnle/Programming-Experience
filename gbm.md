@@ -45,3 +45,5 @@ I followed a tutorial on how to construct an elementary geometric brownian motio
 
 #### Output
 As one can see from the code, I set S = 
+
+![](gbm-ex.png)
