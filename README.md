@@ -1,7 +1,7 @@
 ## Nick Zehnle
 ### Mathematics & Economics major at the College of William and Mary. Graduating in May of 2024.
 
-<img src="https://raw.githubusercontent.com/NickZehnle/Programming-Experience/main/propic.jpg" width=30% height=10%>
+<img src="propic.jpg">
 
 ### Projects and Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
