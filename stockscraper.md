@@ -180,7 +180,7 @@ ThreadPoolExecutor is used to scrape the variables asynchronously. It works by e
     df = pd.DataFrame([(S, K, dte, C, rf, iv, veg, volg, ult)], columns=[stock, 'Strike', 'DTE', 'Call Price', 'Riskfree Rate', 'Implied Vol', 'Vega', 'Volga', 'Ultima'])
     print(df)
 ~~~
-The calculations are performed and then stored into a dataframe which is printed to the terminal. This is the initial dataframe and does not transfer to an Excel file. I made the judgement that it is not necessary to create an Excel file containing one row of data in the case that the program is run after market close.
+The calculations are performed and then stored into a dataframe which is printed to the terminal. This is the initial dataframe and does not transfer to an Excel file. I made the judgement that it is not necessary to create an Excel file containing one row of data in the case that the program is ran after market close.
 
 ~~~python
     try:
