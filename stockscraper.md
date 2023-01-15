@@ -238,5 +238,5 @@ Data from AAPL on January 12, 2023 from 11:51 a.m. to 2:51 p.m. at a runtime int
 
 #### Upcoming Improvements
 As aforementioned, the Black-Scholes formula and its derivatives with respect to implied volatility used in the program do not take into account dividend payoffs. Ergo, an easy update would be to scrape the dividend payoffs of the stock and substitute the formulas that include a measure for dividends. 
-The program also only considers call options. An obvious expansion would be to insert the Black-Scholes formula for put options, update the derivatives with respect to volatility to encompass their put option alternatives, and augment functions such as get_price and impvol_calc. 
+The program also only considers call options. An obvious expansion would be to insert the Black-Scholes formula for put options, update the derivatives with respect to volatility to encompass their put option alternatives, and augment functions such as get_price() and impvol_calc(). 
 I do not intend to make the transition from European option to American option calculations as I was primarily focused on integrating the Newton-Raphson method with the functional improvements brought about through Taylor Series expansion. That said, I plan to work on a binomial pricing model for American options in the future.
