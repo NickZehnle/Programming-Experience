@@ -109,7 +109,7 @@ def ultima(S, K, T, rf, sigma):
     ultima = temp * ((d1 * d2) * (1 - d1 * d2) + (d1 ** 2) + (d2 ** 2))
     return ultima
 ~~~
-The formulas needed for the Newton-Rapshon method are defined. Keep in mind that I do not not multiply by .01 in vega() as this will be explained later. Volga and ultima are added to account for the case of zero approach and thereby improve the calculation of implied volatility. A Taylor series expansion to the third term can be rearranged such that we have two equations: $\x_1 = x_0 + 3f''(x_0)/f'''(x_0)$ and $\x_2 = x_1 - f(x_1)/f'(x_1)$. Note that the second is the exact same as the original formula for the Newton-Raphson method. The first corrects for division by zero and zero approach by returning a different initial value, $\x_1$, that should not produce an error in the second equation.
+The formulas needed for the Newton-Rapshon method are defined. Keep in mind that I do not not multiply by .01 in vega() as this will be explained later. Volga and ultima are added to account for the case of zero approach and thereby improve the calculation of implied volatility. A Taylor series expansion to the third term can be rearranged such that we have two equations: $\ x_1 = x_0 + 3f''(x_0)/f'''(x_0)$ and $\ x_2 = x_1 - f(x_1)/f'(x_1)$. Note that the second is the exact same as the original formula for the Newton-Raphson method. The first corrects for division by zero and zero approach by returning a different initial value, $\ x_1$, that should not produce an error in the second equation.
 
 ~~~python
 def impvol_call(C, S, K, T, rf, err=0.0001, max=100):
