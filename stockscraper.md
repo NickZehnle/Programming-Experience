@@ -109,7 +109,7 @@ def ultima(S, K, T, rf, sigma):
     ultima = temp * ((d1 * d2) * (1 - d1 * d2) + (d1 ** 2) + (d2 ** 2))
     return ultima
 ~~~
-The formulas needed for the Newton-Rapshon method are defined. Keep in mind that I do not not multiply by .01 in vega() as this will be explained later. Volga and ultima are added to account for the case of zero approach and thereby improve the calculation of implied volatility. A Taylor series expansion to the third term can be rearranged such that we have two equations: $\x_1 = x_0 + 3f''(x_0)/f'''(x_0)$ and $\x_2 = x_1 - f(x_1)/f'(x_1)$. Note that the second is the exact same as the original formula for the Newton-Raphson method. The first corrects for division by zero and zero approach by returning a different initial value, $\x_1$, that should not produce an error in the second equation.
+The formulas needed for the Newton-Raphson method are defined. Keep in mind that I do not not multiply by .01 in vega() as this will be explained later. Volga and ultima are added to account for the case of zero approach and thereby improve the calculation of implied volatility. A Taylor series expansion to the third term can be rearranged such that we have two equations: $\x_1 = x_0 + 3f''(x_0)/f'''(x_0)$ and $\x_2 = x_1 - f(x_1)/f'(x_1)$. Note that the second is the exact same as the original formula for the Newton-Raphson method. The first corrects for division by zero and zero approach by returning a different initial value, $\x_1$, that should not produce an error in the second equation.
 
 ~~~python
 def impvol_call(C, S, K, T, rf, err=0.0001, max=100):
@@ -129,11 +129,11 @@ def impvol_call(C, S, K, T, rf, err=0.0001, max=100):
             print(f'Error between market value and calculated value:  {diff}\n')
             break
 
-        #correction for zero approach in newton-rapshon (taylor series expansion and manipulation)
+        #correction for zero approach in newton-raphson (taylor series expansion and manipulation)
         if vega(S, K, T, rf, sigma) < 1:
             sigma = sigma + ((3 * volga(S, K, T, rf, sigma))/(ultima(S, K, T, rf, sigma)))
 
-        #newton-rapshon to update the estimate
+        #newton-raphson to update the estimate
         sigma = sigma - (diff / vega(S, K, T, rf, sigma))
         print(f'updated sigma: {sigma}')
 
@@ -239,4 +239,4 @@ Data from AAPL on January 12, 2023 from 11:51 a.m. to 2:51 p.m. at a runtime int
 #### Upcoming Improvements
 As aforementioned, the Black-Scholes formula and its derivatives with respect to implied volatility used in the program do not take into account dividend payoffs. Ergo, an easy update would be to scrape the dividend payoffs of the stock and substitute the formulas that include a measure for dividends. 
 The program also only considers call options. An obvious expansion would be to insert the Black-Scholes formula for put options, update the derivatives with respect to volatility to encompass their put option alternatives, and augment functions such as get_price() and impvol_calc(). 
-I do not intend to make the transition from European option to American option calculations as I was primarily focused on integrating the Newton-Raphson method with the functional improvements brought about through Taylor Series expansion. That said, I plan to work on a binomial pricing model for American options in the future.
+I do not intend to make the transition from European option to American option calculations as I was primarily focused on integrating the Newton-Raphson method with the functional improvements brought about through Taylor series expansion. That said, I plan to work on a binomial pricing model for American options in the future.
