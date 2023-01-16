@@ -81,7 +81,7 @@ def get_rf():
     r = rate.replace('%', '')
     return float(r)
 ~~~
-The function check_time() is used to determine when the market closes so that the program can terminate. I defined explicit_wait() such that a variable cannot be scraped until it is found. This is an error prevention method that has flawlessly dealt away with empty elements being returned. The purpose of the find_xpath() function is to locate the xpath of the market price of the call option. It works by starting on the first row of the straddle table in the column "Strike" and iterating through the rows until it comes across the strike price entered by the user. Then, it returns the string of the xpath for the column "Last Price" by substituting the column number at the end of the xpath for "Strike". For get_price() there is a default argument of val = 0 so that I could combine two seemingly separate functions: one that scrapes the market price of the underlying asset and one that scrapes the market price of the call option. The function returns the former when no argument is listed (the argument is the strike price) and otherwise returns the latter using find_xpath(). Lastly, get_rf() locates and grabs the value of the risk-free rate using the third URL in the global array named url. I inserted a sleep(1) at the beginning of get_price() and get_rf() to avoid overtaxing the ThreadPoolExecutor (defined later) during long sessions. Note all of the scraped variables are initially returned as strings and converted into float values within the definitions. The functions get_price() and get_rf() are the only ones that deliver the dynamic varibles from web scraping, whereas find_xpath() utilizes web scraping to return an xpath of a dynamic variable.
+The function check_time() is used to determine when the market closes so that the program can terminate. I defined explicit_wait() such that a variable cannot be scraped until it is found. This is an error prevention method that has resolved the instances of empty elements being returned. The purpose of the find_xpath() function is to locate the xpath of the market price of the call option. It works by starting on the first row of the straddle table in the column "Strike" and iterating through the rows until it comes across the strike price entered by the user. Then, it returns the string of the xpath for the column "Last Price" by substituting the column number at the end of the xpath for "Strike". For get_price() there is a default argument of val = 0 so that I could combine two seemingly separate functions: one that scrapes the market price of the underlying asset and one that scrapes the market price of the call option. The function returns the former when no argument is listed (the argument is the strike price) and otherwise returns the latter using find_xpath(). Lastly, get_rf() locates and grabs the value of the risk-free rate using the third URL in the global array named url. I inserted a sleep(1) at the beginning of get_price() and get_rf() to avoid overtaxing the ThreadPoolExecutor (defined later) during long sessions. Note all of the scraped variables are initially returned as strings and converted into float values within the definitions. The functions get_price() and get_rf() are the only ones that deliver the dynamic varibles from web scraping, whereas find_xpath() utilizes web scraping to return an xpath of a dynamic variable.
 
 ~~~python
 def bs_call(S, K, T, rf, sigma):
@@ -187,7 +187,7 @@ ThreadPoolExecutor is used to scrape the variables asynchronously. It works by e
     df = pd.DataFrame([(S, K, dte, C, rf, iv, veg, volg, ult)], columns=[stock, 'Strike', 'DTE', 'Call Price', 'Riskfree Rate', 'Implied Vol', 'Vega', 'Volga', 'Ultima'])
     print(df)
 ~~~
-The calculations are performed and then stored into a dataframe which is printed to the terminal. This is the initial dataframe and does not transfer to an Excel file. I made the judgement that it is not necessary to create an Excel file containing one row of data in the case that the program is run after market close.
+The calculations are performed and then stored into a dataframe which is printed to the terminal. This is the initial dataframe and does not transfer to an Excel file. I made the judgement that it is not necessary to create an Excel file containing one row of data when the program is run after market close.
 
 ~~~python
     try:
@@ -235,7 +235,7 @@ Below is an image of the terminal during runtime. It first collects the user inp
 <img src="terminal.png" width="50%">
 
 #### Data Examples
-Note the path label in the code of the program above. I have it so the Excel file is marked by the date followed by the name of the stock for orginizational purposes. I provide data from two stocks on different days with different runtime intervals. 
+Note the path label in the code of the program above. I have it so the Excel file is marked by the date followed by the name of the stock for organizational purposes. I provide data from two stocks on different days with different runtime intervals. 
 
 <img src="AMZN-01-09.png" width="50%">
 
