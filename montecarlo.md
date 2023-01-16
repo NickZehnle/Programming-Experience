@@ -89,4 +89,4 @@ I followed a tutorial of how to implement a monte carlo simulation that predicts
 
 ![](mc-ex.png)
 
-<img src="VaRterm.png" width="45%">
+<img src="VaRterm.png" width="50%">
