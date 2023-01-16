@@ -6,6 +6,6 @@
 #### Projects and Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
 
-[Practice - Monte Carlo Simulation](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
+[Practice - Monte Carlo Simulation, VaR, and CVaR](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
 
 [Practice - Geometric Brownian Motion Simulation](https://NickZehnle.github.io/Programming-Experience/gbm.html)
