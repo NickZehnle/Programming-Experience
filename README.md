@@ -3,7 +3,7 @@
 
 <img src="propic.jpg" width="30%">
 
-### Projects and Experience
+### Programming Projects and Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/stockscraper.html)
 
 [Practice - Monte Carlo Simulation, VaR, and CVaR](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
