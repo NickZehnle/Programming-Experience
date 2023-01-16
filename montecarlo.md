@@ -81,6 +81,6 @@ I followed a tutorial on how to implement a monte carlo simulation that predicts
 
 #### Output
 The predictive graph produced for the stock list specified and the random weightings assigned to those stocks by the program is shown below. VaR and CVaR are calculated to be 5579.294 and 5888.072, respectively.
-![](mc-ex.png)
 
+![](mc-ex.png)
 <img src="VaRterm.png" width="50%">
