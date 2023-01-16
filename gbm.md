@@ -41,9 +41,9 @@ plt.show()
 ~~~
 
 #### Description
-I followed a tutorial on how to construct an elementary geometric brownian motion simulation. 
+I followed a tutorial on how to construct an elementary geometric brownian motion simulation. In it, I learned how to use five different numpy built-in functions: random.normal(), vstack(), cumprod(), linspace(), and full(). Furthermore, I grasped how the geometric brownian motion formula operates at a more decomposed level through the practice of transforming it into code.
 
 #### Output
-As one can see from the code, I set S = 
+Following my initial inputs shown in the code above, a graph as such is produced:
 
 ![](gbm-ex.png)
