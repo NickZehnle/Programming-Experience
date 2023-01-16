@@ -232,16 +232,16 @@ The remaining code enters a while loop that runs, in this built-in case, every 1
 #### Functionality
 Below is an image of the terminal during runtime. It first collects the user input for stock, strike price, and days until expiration. Then, it scrapes the market price of the underlying asset, the market price of the call option, and the risk-free rate. In order to find the market price of the call it begins at the top row of the straddle table and iterates through the rows until it finds the strike price input by the user. The program subsequently moves over the the "Last Price" column and scrapes the option price. Lastly, it calculates and appends its findings to the dataframe.
 
-<img src="terminal.png" width="75%">
+<img src="terminal.png" width="50%">
 
 #### Data Examples
 Note the path label in the code of the program above. I have it so the Excel file is marked by the date followed by the name of the stock for orginizational purposes. I provide data from two stocks on different days with different runtime intervals. 
 
-<img src="AMZN-01-09.png" width="90%">
+<img src="AMZN-01-09.png" width="50%">
 
 Data from AMZN on January 9, 2023 from 2:04 p.m. to 2:16 p.m. at a runtime interval of 1 minute.
 
-<img src="AAPL-01-12.png" width="90%">
+<img src="AAPL-01-12.png" width="50%">
 
 Data from AAPL on January 12, 2023 from 11:51 a.m. to 2:51 p.m. at a runtime interval of 15 minutes.
 
