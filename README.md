@@ -5,7 +5,7 @@
 ### Quantitative Finance Programming Projects & Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
-[Project - Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
+[Project - Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/mc_gbm.html)
 
 [Practice - Monte Carlo VaR and CVaR (Cholesky Decomposition)](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
 
