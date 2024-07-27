@@ -1,4 +1,4 @@
-## Monte Carlo VaR and CVaR
+## Monte Carlo VaR and CVaR (Cholesky Decomposition)
 
 #### Code 
 
@@ -83,4 +83,4 @@ I followed a tutorial on how to implement a monte carlo simulation that predicts
 The predictive graph produced for the stock list specified and the random weightings assigned to those stocks by the program is shown below. VaR and CVaR are calculated to be 5579.294 and 5888.072, respectively.
 
 ![](mc-ex.png)
-<img src="VaRterm.png" width="50%">
+<img src="VaRterm.png" width="100%">
