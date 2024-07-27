@@ -81,3 +81,6 @@ plt.axvline(df.loc[10]['CVaR']+1, color='g', linestyle='dashed')
 
 plt.show()
 ~~~
+
+![](mc_gbm.png)
+<img src="mcGBMterm.png" width="100%">
