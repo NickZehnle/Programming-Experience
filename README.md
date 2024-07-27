@@ -1,9 +1,6 @@
-## Nicholas A. Zehnle
 ### Hi! Welcome to my GitHub.
-### MS Financial Mathematics at NCSU expected December 2025
-### BS Mathematics, Economics at William & Mary received May 2024
+### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics, Economics from William & Mary. Below are some quantitative finance programming projects I have completed.
 
-<img src="propic.jpg" width="20%">
 
 ### Programming Projects and Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
