@@ -1,6 +1,7 @@
 ## Monte Carlo VaR and CVaR (Geometric Brownian Motion)
 
 #### Code
+
 ~~~python
 import pandas as pd
 import numpy as np
