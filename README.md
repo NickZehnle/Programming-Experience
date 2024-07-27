@@ -4,7 +4,9 @@
 
 #### Below are some quantitative finance programming projects I have completed.
 
-#### Programming Projects and Experience
+
+
+### Programming Projects and Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
 [Project - Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
