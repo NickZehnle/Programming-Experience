@@ -57,12 +57,12 @@ model.compile(optimizer=optimizer, loss='mse', metrics=[MeanAbsoluteError()])
 history = model.fit(train_x, train_y, epochs=30, batch_size=1, verbose=2, validation_data=(test_x, test_y))
 ~~~
 Epoch 1/30
-2649/2649 - 14s - 5ms/step - loss: 0.0074 - mean_absolute_error: 0.0626 - val_loss: 0.0051 - val_mean_absolute_error: 0.0574
+2649/2649 - 14s - 5ms/step - loss: 0.0074 - mean_absolute_error: 0.0626 - val_loss: 0.0051 - val_mean_absolute_error: 0.0574\
 Epoch 2/30
-2649/2649 - 11s - 4ms/step - loss: 0.0070 - mean_absolute_error: 0.0607 - val_loss: 0.0049 - val_mean_absolute_error: 0.0568
+2649/2649 - 11s - 4ms/step - loss: 0.0070 - mean_absolute_error: 0.0607 - val_loss: 0.0049 - val_mean_absolute_error: 0.0568\
 ...
 Epoch 29/30
-2649/2649 - 11s - 4ms/step - loss: 0.0013 - mean_absolute_error: 0.0255 - val_loss: 6.5068e-04 - val_mean_absolute_error: 0.0200
+2649/2649 - 11s - 4ms/step - loss: 0.0013 - mean_absolute_error: 0.0255 - val_loss: 6.5068e-04 - val_mean_absolute_error: 0.0200\
 Epoch 30/30
 2649/2649 - 11s - 4ms/step - loss: 0.0014 - mean_absolute_error: 0.0258 - val_loss: 6.1802e-04 - val_mean_absolute_error: 0.0185
 
@@ -91,6 +91,8 @@ plt.savefig('AAPL_VIX_train_history.png',format='png')
 plt.show()
 ~~~
 
+![](AAPL_VIX_train_history.png)
+
 ~~~python
 y_est = model.predict(test_x)
 
@@ -104,3 +106,5 @@ plt.legend(['true val', 'ests'], loc='lower right')
 plt.savefig('AAPL_VIX_impvol_ests.png',format='png')
 plt.show()
 ~~~
+
+![](AAPL_VIX_impvol_ests.png)
