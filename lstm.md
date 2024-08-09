@@ -60,7 +60,7 @@ Epoch 1/30
 2649/2649 - 14s - 5ms/step - loss: 0.0074 - mean_absolute_error: 0.0626 - val_loss: 0.0051 - val_mean_absolute_error: 0.0574\
 Epoch 2/30
 2649/2649 - 11s - 4ms/step - loss: 0.0070 - mean_absolute_error: 0.0607 - val_loss: 0.0049 - val_mean_absolute_error: 0.0568\
-...
+...\
 Epoch 29/30
 2649/2649 - 11s - 4ms/step - loss: 0.0013 - mean_absolute_error: 0.0255 - val_loss: 6.5068e-04 - val_mean_absolute_error: 0.0200\
 Epoch 30/30
