@@ -1,8 +1,8 @@
 ## Hi! Welcome to my GitHub.
 
-#### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics, Economics from William & Mary. Below are some relevant projects that I have completed.
+#### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics, Economics from William & Mary. Seeking a career in quantitative finance with a strong interest in stochastic processes and machine learning.
  
-### Quantitative Finance Programming Projects & Experience
+### Relevant Programming Projects & Experience
 [Project - LSTM ML Model of CBOE VIX on AAPL](https://NickZehnle.github.io/Programming-Experience/lstm.html)
 
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
