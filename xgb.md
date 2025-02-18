@@ -106,13 +106,13 @@ model.fit(x_train, y_train,
 ~~~python
 plot_importance(model)
 ~~~
-[xgb_features.png]
+![](xgb_features.png)
 
 ~~~python
 plt.plot(y_train)
 plt.plot(model.predict(x_train))
 ~~~
-[xgb_train.png]
+![](xgb_train.png)
 
 ~~~python
 print('MAE:', mae(y_train, model.predict(x_train)))
@@ -127,7 +127,7 @@ R-squared 0.9971103604249477
 plt.plot(y_test)
 plt.plot(y_test.index, model.predict(x_test))
 ~~~
-[xgb_test.png]
+![](xgb_test.png)
 
 ~~~python
 print('MAE:', mae(y_test, model.predict(x_test)))
@@ -167,7 +167,7 @@ plt.plot(curr)
 plt.plot(up)
 plt.plot(low)
 ~~~
-[xgb_bounds1.png]
+![](xgb_bounds1.png)
 
 ~~~python
 # important for option price assumptions
@@ -182,7 +182,7 @@ plt.plot(curr)
 plt.plot(up2)
 plt.plot(low2)
 ~~~
-[xgb_bounds2.png]
+![](xgb_bounds2.png)
 
 ~~~python
 # important for option price assumptions
@@ -239,4 +239,4 @@ plt.plot(np.cumsum(payoff))
 ~~~
 74672.17026240133
 -1246.8806067531084
-[xgb_payoff.png]
+![](xgb_payoff.png)
