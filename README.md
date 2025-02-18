@@ -1,6 +1,6 @@
 ## Hi! Welcome to my GitHub.
 
-#### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics, Economics from William & Mary. Seeking a career in quantitative finance.
+#### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics & Economics from William & Mary.
  
 ### Relevant Programming Projects & Experience
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
