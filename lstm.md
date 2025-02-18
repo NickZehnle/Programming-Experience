@@ -23,23 +23,6 @@ test_y = data2['t+3']
 ~~~
 
 ~~~python
-#data1 = pd.read_csv('VXAPLCLS.csv')
-#data2 = pd.read_csv('VXAPLCLS_test.csv')
-#data2['t+1'] = data2['VXAPLCLS'].shift(-1)
-#data2['t+2'] = data2['VXAPLCLS'].shift(-2)
-#data2['t+3'] = data2['VXAPLCLS'].shift(-3)
-#test_data = data2.iloc[:-3]
-#test_data.replace('.', pd.NA, inplace=True)
-#print(test_data.isnull().sum())
-#test_data.dropna(inplace=True)
-#print(test_data.isnull().sum())
-#print(test_data)
-#test_data[['VXAPLCLS', 't+1', 't+2', 't+3']] = test_data[['VXAPLCLS', 't+1', 't+2', 't+3']].div(100)
-#print(test_data)
-#test_data.to_csv('AAPL_VIX_test.csv', index=False)
-~~~
-
-~~~python
 model = Sequential()
 model.add(LSTM(64, input_shape = (train_x.shape[1], train_x.shape[2]), activation='relu', return_sequences=True))
 model.add(Dropout(0.3))
