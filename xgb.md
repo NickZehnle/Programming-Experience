@@ -120,7 +120,9 @@ print('RMSE:', rmse(y_train, model.predict(x_train)))
 print('R-squared', r2_score(y_train, model.predict(x_train)))
 ~~~
 MAE: 0.0003085997910182498
+
 RMSE: 0.000453942034946277
+
 R-squared 0.9971103604249477
 
 ~~~python
@@ -135,7 +137,9 @@ print('RMSE:', rmse(y_test, model.predict(x_test)))
 print('R-squared', r2_score(y_test, model.predict(x_test)))
 ~~~
 MAE: 0.00031782196837878317
+
 RMSE: 0.00044950098908029263
+
 R-squared 0.9437100985544143
 
 ~~~python
@@ -175,6 +179,7 @@ print('Upper MAE:', mae(curr, up))
 print('Lower MAE:', mae(curr, low))
 ~~~
 Upper MAE: 6.997810826597536
+
 Lower MAE: 7.880851405660426
 
 ~~~python
@@ -190,6 +195,7 @@ print('Upper MAE:', mae(curr, up2))
 print('Lower MAE:', mae(curr, low2))
 ~~~
 Upper MAE: 10.729259494819159
+
 Lower MAE: 11.39321905232723
 
 ~~~python
@@ -209,8 +215,11 @@ above = np.where(results['Upper2']<results['Actual'])[0]
 print('Percentage realized price > upper 2 std estimate:', len(above)/502)
 ~~~
 Percentage realized price < lower 1 std estimate: 0.02390438247011952
+
 Percentage realized price > upper 1 std estimate: 0.01195219123505976
+
 Percentage realized price < lower 2 std estimate: 0.00199203187250996
+
 Percentage realized price > upper 2 std estimate: 0.0
 
 ~~~python
@@ -238,5 +247,7 @@ print(payoff[np.where(payoff<0)[0]].mean())
 plt.plot(np.cumsum(payoff))
 ~~~
 74672.17026240133
+
 -1246.8806067531084
+
 ![](xgb_payoff.png)
