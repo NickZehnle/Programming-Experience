@@ -161,6 +161,9 @@ for p in sig_ports:
     model = ols(strings_1970[ports_1970.index(p)], df).fit()
     print(model.summary())   
 ~~~
+e.g.
+
+![](FF_1970.png)
 
 ~~~python
 #1980
@@ -169,6 +172,9 @@ for p in sig_ports:
     model = ols(strings_1980[ports_1980.index(p)], df).fit()
     print(model.summary()) 
 ~~~
+e.g.
+
+![](FF_1980.png)
 
 ~~~python
 #1990
@@ -177,3 +183,6 @@ for p in sig_ports:
     model = ols(strings_1990[ports_1990.index(p)], df).fit()
     print(model.summary())
 ~~~
+e.g.
+
+![](FF_1990.png)
