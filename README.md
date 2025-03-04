@@ -9,9 +9,9 @@
 
 [Project - XGBoost SPY Iron Condor Options Strategy](https://NickZehnle.github.io/Programming-Experience/xgb.html)
 
-[Project - LSTM Model of CBOE VIX on AAPL](https://NickZehnle.github.io/Programming-Experience/lstm.html)
-
 ### Practice
+[Practice - LSTM Model of CBOE VIX on AAPL](https://NickZehnle.github.io/Programming-Experience/lstm.html)
+
 [Practice - Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/mc_gbm.html)
 
 [Practice - Monte Carlo VaR and CVaR (Cholesky Decomposition)](https://NickZehnle.github.io/Programming-Experience/montecarlo.html)
