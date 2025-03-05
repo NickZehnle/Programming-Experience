@@ -5,7 +5,7 @@
 ### Relevant Programming Projects
 [Project - Polynomial Fama-French Portfolio Construction](https://NickZehnle.github.io/Programming-Experience/FF.html)
 
-[Project - PCA Mean Reversion Strategy](https://NickZehnle.github.io/Programming-Experience/PCA.html)
+[Project - PCA Mean Reversion Statistical Arbitrage Strategy](https://NickZehnle.github.io/Programming-Experience/PCA.html)
 
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
