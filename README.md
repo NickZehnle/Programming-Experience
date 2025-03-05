@@ -9,9 +9,9 @@
 
 [Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
-### Practice
 [XGBoost SPY Iron Condor Options Strategy](https://NickZehnle.github.io/Programming-Experience/xgb.html)
 
+### Practice
 [LSTM Model of CBOE VIX on AAPL](https://NickZehnle.github.io/Programming-Experience/lstm.html)
 
 [Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/mc_gbm.html)
