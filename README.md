@@ -5,11 +5,13 @@
 ### Relevant Programming Projects
 [Project - Polynomial Fama-French Portfolio Construction](https://NickZehnle.github.io/Programming-Experience/FF.html)
 
+[Project - PCA Mean Reversion Strategy](https://NickZehnle.github.io/Programming-Experience/PCA.html)
+
 [Project - Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
+### Practice
 [Project - XGBoost SPY Iron Condor Options Strategy](https://NickZehnle.github.io/Programming-Experience/xgb.html)
 
-### Practice
 [Practice - LSTM Model of CBOE VIX on AAPL](https://NickZehnle.github.io/Programming-Experience/lstm.html)
 
 [Practice - Monte Carlo VaR and CVaR (Geometric Brownian Motion)](https://NickZehnle.github.io/Programming-Experience/mc_gbm.html)
