@@ -1,4 +1,4 @@
-## PCA Mean Reversion Statistical Arbitrage Strategy
+## Regime-Adaptive PCA Mean Reversion Strategy
 
 #### Backtest Results
 [Strategy Performance Report](PCA_Mean_Reversion2022-25.pdf)
