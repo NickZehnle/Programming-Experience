@@ -3,9 +3,9 @@
 #### I am currently pursuing a MS in Financial Mathematics at NCSU and recently received a BS in Mathematics & Economics from William & Mary.
  
 ### Relevant Programming Projects
-[Polynomial Fama-French Portfolio Construction](https://NickZehnle.github.io/Programming-Experience/FF.html)
+[Regime-Adaptive PCA Mean Reversion Strategy](https://NickZehnle.github.io/Programming-Experience/PCA.html)
 
-[PCA Mean Reversion Statistical Arbitrage Strategy](https://NickZehnle.github.io/Programming-Experience/PCA.html)
+[Polynomial Fama-French Portfolio Construction](https://NickZehnle.github.io/Programming-Experience/FF.html)
 
 [Automated Implied Volatility Calculator](https://NickZehnle.github.io/Programming-Experience/aivc.html)
 
